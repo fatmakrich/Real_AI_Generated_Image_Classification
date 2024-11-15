@@ -36,32 +36,31 @@ If you want to retrain the model, you can use the provided train_model.ipynb scr
 
 1- Prepare your dataset and directory structure as follows:
 
-dataset/
 
-├── train/
+├── dataset_train/
 
-│   ├── REAL/
+│   ├── ai_generated/
 
-│   └── FAKE/
+│   └── real/
 
-└── test/
+└── dataset_test/
 
-│   ├── REAL/
+│   ├── ai_generated/
 
-│    └── FAKE/
+│    └── real/
 
 
-2- Follow the steps in the train_model.ipynb to train the model and save the final weights as model.pth.
+2- Follow the steps in the train_model.ipynb to train the model and save the final weights as trained_resnet50.pth
 
 # Running the Streamlit App
 
 To run the web application:
 
-1- Start the Streamlit server      :  streamlit run test_model.py
+1- Start the Streamlit server      :  streamlit run app.py
 
 2- Open the displayed local URL in your web browser.
 
-3- Use the test_model.ipynb to load the model and make predictions on new images.
+3- Load the model "trained_resnet50.pth" to make predictions on new images.
 
 4- Upload an image in the Streamlit app to receive a classification result of "REAL" or "AI generated"
 
