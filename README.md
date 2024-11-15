@@ -14,6 +14,8 @@ Presented By : Malek Elmechi & Fatma Krichen
 
 - Technologies Used
 
+- Results
+
 # Project Overview
 
 This project is built using PyTorch and Streamlit. The model leverages a pre-trained ResNet-50 architecture, fine-tuned to classify images into "REAL" or "FAKE" categories. Training was conducted on Google Colab, and the trained model can be downloaded and deployed locally for testing and web-based predictions.
@@ -69,3 +71,11 @@ To run the web application:
 - PyTorch - Deep learning framework
 - Torchvision - Pre-trained models and image transformations
 - Streamlit - Web application framework for machine learning models
+
+# Results 
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
