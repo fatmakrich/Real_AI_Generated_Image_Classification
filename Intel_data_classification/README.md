@@ -2,10 +2,7 @@
 
 This project focuses on building a Convolutional Neural Network (CNN) from scratch to classify images in the Intel Image Classification Dataset.
 
-The dataset contains images categorized into six classes representing different natural scenes: 
-
-buildings, forest, glacier, mountain, sea, and street.
-
+The dataset contains images categorized into six classes representing different natural scenes.
 # Project Objectives
 
 The main goals of this project are:
