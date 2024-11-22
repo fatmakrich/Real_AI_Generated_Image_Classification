@@ -16,7 +16,7 @@ The main goals of this project are:
 
 # Dataset
 
-* The Intel Image Classification Dataset can be downloaded from Kaggle.
+ The Intel Image Classification Dataset can be downloaded from Kaggle :
 
 - Classes: Buildings, Forest, Glacier, Mountain, Sea, and Street
 - Structure: Images are organized into folders for training, validation, and testing.
