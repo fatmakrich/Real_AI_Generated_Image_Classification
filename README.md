@@ -1,4 +1,4 @@
-# Deep Computer Vision
+# Deep Computer Vision Projects
 
 This repository contains a collection of small projects focused on Deep Computer Vision.
 
